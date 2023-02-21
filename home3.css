@@ -1,0 +1,71 @@
+.more-items {
+    width: 100%;
+    height: 500px;
+    background-color: #3c3a3a;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.smart-phones {
+    width: 20%;
+    height: 430px;
+    background-color: #fff;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+/* .smart-phones:hover {
+    transform: scale(1.1);
+    height: 410px;
+} */
+
+.smart-phones-name {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.specifications {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.price,
+.strike {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.price-alert {
+    color: rgb(194, 42, 42);
+    animation: price-alert 0.9s linear infinite;
+}
+
+@keyframes price-alert {
+    50% {
+        opacity: 0;
+    }
+}
+
+.checkout {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 5px 0px;
+    background-color: rgb(97, 94, 165);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkout:hover {
+    background-color: rgb(81, 77, 162);
+}
+

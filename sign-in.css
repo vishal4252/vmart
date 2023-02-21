@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #181818;
+}
+
+.sign-in-box {
+    height: 230px;
+    width: 270px;
+    border: 2px solid white;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 13px 9px grey;
+    border-radius: 10px;
+
+}
+
+/* input[type="email"]:invalid {
+    border: 2px solid red;
+}
+
+input[type="email"]:valid {
+    border: 2px solid green;
+} */
+
+.text-box {
+    border: 2px solid white;
+    box-shadow: 0px 0px 7px 2px grey;
+    border-radius: 4px;
+    padding: 0px 5px;
+    margin-top: 4px;
+    outline: none;
+}
+
+.button {
+    border: 5px;
+    border-radius: 2px;
+    font-size: 15px;
+    color: black;
+    padding: 7px 20px;
+    cursor: pointer;
+    background-color: lightskyblue;
+
+}
+
+.button:hover {
+    background-color: rgb(111, 179, 222);
+}
+
+.href {
+    text-decoration: none;
+}
